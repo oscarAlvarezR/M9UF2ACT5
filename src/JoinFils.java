@@ -98,21 +98,7 @@ public class JoinFils implements Runnable {
 		fil_14.start();
 		fil_15.start();
 		//Espera el fil_1 que el fil principal, el que l’ha invocat acabi	
-		fil_1.join(); 
-		fil_2.join();
-		fil_3.join();
-		fil_4.join();
-		fil_5.join();
-		fil_6.join();
-		fil_7.join();
-		fil_8.join();
-		fil_9.join();
-		fil_10.join();
-		fil_11.join();
-		fil_12.join();
-		fil_13.join();
-		fil_14.join();
-		fil_15.join();
+	
 	
 		
 		System.out.println("Total tirada: "+ ans.getSumaTirada());
