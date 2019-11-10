@@ -42,16 +42,16 @@ public class RunnableFil implements Runnable {
 		
 		// Hem creat dos fils primer i segon, però no s’han executat.
 		// Per poder−lo executar s’ha de cridar al mètode start()
-		primer.start();
-		segon.start();
-		tres.start();
-		quatre.start();
-		cinc.start();
-		sis.start();
-		set.start();
-		vuit.start();
-		nou.start();
-		deu.start();
+		primer.run();
+		segon.run();
+		tres.run();
+		quatre.run();
+		cinc.run();
+		sis.run();
+		set.run();
+		vuit.run();
+		nou.run();
+		deu.run();
 		
 		System.out.println("Final Fil Principal");
 	}
